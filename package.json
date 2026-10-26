@@ -1,0 +1,23 @@
+{
+  "name": "miniprojeto-ecommerce",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sistema de gerenciamento de e-commerce em TypeScript (Mini-Projeto M1S7)",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc && node dist/main.js",
+    "demo": "tsc && node dist/demo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3"
+  }
+}
